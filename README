@@ -1,0 +1,13 @@
+Overview plugin allows you to build a table comparing versions in different sources including openSUSE build service projects. It supports different sources as projects in obs, build service pending submit requests, gem repos, ... see the examples folder for more on that.
+
+More information at https://en.opensuse.org/openSUSE:OSC_overview_plugin
+
+INSTALLATION
+------------
+
+run
+  python setup.py install && cp src/overview.py /var/lib/osc-plugins/overview.py
+
+
+
+
